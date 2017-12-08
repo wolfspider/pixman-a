@@ -7,8 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABC803EE1FDA07FD002745E9 /* pixman_a.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC803ED1FDA07FD002745E9 /* pixman_a.m */; };
-		ABC803EF1FDA07FD002745E9 /* pixman_a.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC803EC1FDA07FD002745E9 /* pixman_a.h */; };
+		ABC804301FDA088C002745E9 /* pixman-arm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC803F51FDA0860002745E9 /* pixman-arm.c */; };
+		ABC804311FDA088C002745E9 /* pixman-image.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC803F61FDA0860002745E9 /* pixman-image.c */; };
+		ABC804341FDA088C002745E9 /* pixman-region16.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC803FC1FDA0861002745E9 /* pixman-region16.c */; };
+		ABC804361FDA088C002745E9 /* pixman-access-accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC803FE1FDA0862002745E9 /* pixman-access-accessors.c */; };
+		ABC804371FDA088C002745E9 /* pixman-noop.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC803FF1FDA0862002745E9 /* pixman-noop.c */; };
+		ABC804381FDA088C002745E9 /* pixman-bits-image.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804001FDA0862002745E9 /* pixman-bits-image.c */; };
+		ABC8043A1FDA088C002745E9 /* pixman-combine32.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804051FDA0864002745E9 /* pixman-combine32.c */; };
+		ABC8043B1FDA088C002745E9 /* pixman-fast-path.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804061FDA0864002745E9 /* pixman-fast-path.c */; };
+		ABC8043C1FDA088C002745E9 /* pixman-access.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804081FDA0865002745E9 /* pixman-access.c */; };
+		ABC8043E1FDA088C002745E9 /* pixman-conical-gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8040C1FDA0867002745E9 /* pixman-conical-gradient.c */; };
+		ABC8043F1FDA088C002745E9 /* pixman-solid-fill.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8040D1FDA0868002745E9 /* pixman-solid-fill.c */; };
+		ABC804401FDA088C002745E9 /* pixman-arm-simd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8040E1FDA086A002745E9 /* pixman-arm-simd.c */; };
+		ABC804411FDA088C002745E9 /* pixman-general.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8040F1FDA086A002745E9 /* pixman-general.c */; };
+		ABC804421FDA088C002745E9 /* pixman-trap.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804101FDA086B002745E9 /* pixman-trap.c */; };
+		ABC804431FDA088C002745E9 /* pixman.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804111FDA086C002745E9 /* pixman.c */; };
+		ABC804441FDA088C002745E9 /* pixman-ppc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804121FDA086D002745E9 /* pixman-ppc.c */; };
+		ABC804451FDA088C002745E9 /* pixman-mmx.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804141FDA086F002745E9 /* pixman-mmx.c */; };
+		ABC804461FDA088C002745E9 /* pixman-matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804151FDA0870002745E9 /* pixman-matrix.c */; };
+		ABC804471FDA088C002745E9 /* pixman-edge-accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804171FDA0873002745E9 /* pixman-edge-accessors.c */; };
+		ABC804481FDA088C002745E9 /* pixman-edge.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804191FDA0876002745E9 /* pixman-edge.c */; };
+		ABC804491FDA088C002745E9 /* pixman-glyph.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8041A1FDA0878002745E9 /* pixman-glyph.c */; };
+		ABC8044A1FDA088C002745E9 /* pixman-combine-float.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8041D1FDA087C002745E9 /* pixman-combine-float.c */; };
+		ABC8044B1FDA088C002745E9 /* pixman-mips.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8041E1FDA087D002745E9 /* pixman-mips.c */; };
+		ABC8044C1FDA088C002745E9 /* pixman-gradient-walker.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8041F1FDA087E002745E9 /* pixman-gradient-walker.c */; };
+		ABC8044E1FDA088C002745E9 /* pixman-x86.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804211FDA0880002745E9 /* pixman-x86.c */; };
+		ABC8044F1FDA088C002745E9 /* pixman-arm-neon.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804231FDA0882002745E9 /* pixman-arm-neon.c */; };
+		ABC804501FDA088C002745E9 /* pixman-radial-gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804241FDA0882002745E9 /* pixman-radial-gradient.c */; };
+		ABC804511FDA088C002745E9 /* pixman-implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804251FDA0883002745E9 /* pixman-implementation.c */; };
+		ABC804521FDA088C002745E9 /* pixman-filter.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804261FDA0884002745E9 /* pixman-filter.c */; };
+		ABC804531FDA088C002745E9 /* pixman-mips-dspr2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804271FDA0885002745E9 /* pixman-mips-dspr2.c */; };
+		ABC804541FDA088C002745E9 /* pixman-timer.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804281FDA0885002745E9 /* pixman-timer.c */; };
+		ABC804551FDA088C002745E9 /* pixman-utils.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC804291FDA0886002745E9 /* pixman-utils.c */; };
+		ABC804561FDA088C002745E9 /* pixman-region32.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8042A1FDA0887002745E9 /* pixman-region32.c */; };
+		ABC804591FDA088D002745E9 /* pixman-linear-gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8042D1FDA088A002745E9 /* pixman-linear-gradient.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +50,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				ABC803EF1FDA07FD002745E9 /* pixman_a.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +57,67 @@
 
 /* Begin PBXFileReference section */
 		ABC803E91FDA07FD002745E9 /* libpixman-a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libpixman-a.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC803EC1FDA07FD002745E9 /* pixman_a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pixman_a.h; sourceTree = "<group>"; };
-		ABC803ED1FDA07FD002745E9 /* pixman_a.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pixman_a.m; sourceTree = "<group>"; };
+		ABC803F51FDA0860002745E9 /* pixman-arm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-arm.c"; sourceTree = "<group>"; };
+		ABC803F61FDA0860002745E9 /* pixman-image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-image.c"; sourceTree = "<group>"; };
+		ABC803F71FDA0860002745E9 /* pixman-arm-simd-asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "pixman-arm-simd-asm.S"; sourceTree = "<group>"; };
+		ABC803F81FDA0860002745E9 /* loongson-mmintrin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "loongson-mmintrin.h"; sourceTree = "<group>"; };
+		ABC803F91FDA0861002745E9 /* pixman-arm-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-asm.h"; sourceTree = "<group>"; };
+		ABC803FA1FDA0861002745E9 /* pixman-combine32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-combine32.h"; sourceTree = "<group>"; };
+		ABC803FB1FDA0861002745E9 /* pixman-region.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-region.c"; sourceTree = "<group>"; };
+		ABC803FC1FDA0861002745E9 /* pixman-region16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-region16.c"; sourceTree = "<group>"; };
+		ABC803FD1FDA0862002745E9 /* pixman-mips-dspr2-asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "pixman-mips-dspr2-asm.S"; sourceTree = "<group>"; };
+		ABC803FE1FDA0862002745E9 /* pixman-access-accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-access-accessors.c"; sourceTree = "<group>"; };
+		ABC803FF1FDA0862002745E9 /* pixman-noop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-noop.c"; sourceTree = "<group>"; };
+		ABC804001FDA0862002745E9 /* pixman-bits-image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-bits-image.c"; sourceTree = "<group>"; };
+		ABC804011FDA0862002745E9 /* pixman-arm-simd-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-simd-asm.h"; sourceTree = "<group>"; };
+		ABC804021FDA0863002745E9 /* pixman-arm-neon-asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "pixman-arm-neon-asm.S"; sourceTree = "<group>"; };
+		ABC804031FDA0863002745E9 /* pixman-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-private.h"; sourceTree = "<group>"; };
+		ABC804041FDA0863002745E9 /* pixman-inlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-inlines.h"; sourceTree = "<group>"; };
+		ABC804051FDA0864002745E9 /* pixman-combine32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-combine32.c"; sourceTree = "<group>"; };
+		ABC804061FDA0864002745E9 /* pixman-fast-path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-fast-path.c"; sourceTree = "<group>"; };
+		ABC804071FDA0864002745E9 /* pixman-compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-compiler.h"; sourceTree = "<group>"; };
+		ABC804081FDA0865002745E9 /* pixman-access.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-access.c"; sourceTree = "<group>"; };
+		ABC804091FDA0865002745E9 /* pixman-sse2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-sse2.c"; sourceTree = "<group>"; };
+		ABC8040A1FDA0866002745E9 /* pixman-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-version.h"; sourceTree = "<group>"; };
+		ABC8040B1FDA0867002745E9 /* pixman-accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-accessor.h"; sourceTree = "<group>"; };
+		ABC8040C1FDA0867002745E9 /* pixman-conical-gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-conical-gradient.c"; sourceTree = "<group>"; };
+		ABC8040D1FDA0868002745E9 /* pixman-solid-fill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-solid-fill.c"; sourceTree = "<group>"; };
+		ABC8040E1FDA086A002745E9 /* pixman-arm-simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-arm-simd.c"; sourceTree = "<group>"; };
+		ABC8040F1FDA086A002745E9 /* pixman-general.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-general.c"; sourceTree = "<group>"; };
+		ABC804101FDA086B002745E9 /* pixman-trap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-trap.c"; sourceTree = "<group>"; };
+		ABC804111FDA086C002745E9 /* pixman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pixman.c; sourceTree = "<group>"; };
+		ABC804121FDA086D002745E9 /* pixman-ppc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-ppc.c"; sourceTree = "<group>"; };
+		ABC804131FDA086E002745E9 /* pixman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixman.h; sourceTree = "<group>"; };
+		ABC804141FDA086F002745E9 /* pixman-mmx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-mmx.c"; sourceTree = "<group>"; };
+		ABC804151FDA0870002745E9 /* pixman-matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-matrix.c"; sourceTree = "<group>"; };
+		ABC804161FDA0871002745E9 /* pixman-mips-dspr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-mips-dspr2.h"; sourceTree = "<group>"; };
+		ABC804171FDA0873002745E9 /* pixman-edge-accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-edge-accessors.c"; sourceTree = "<group>"; };
+		ABC804181FDA0875002745E9 /* pixman-mips-dspr2-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-mips-dspr2-asm.h"; sourceTree = "<group>"; };
+		ABC804191FDA0876002745E9 /* pixman-edge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-edge.c"; sourceTree = "<group>"; };
+		ABC8041A1FDA0878002745E9 /* pixman-glyph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-glyph.c"; sourceTree = "<group>"; };
+		ABC8041B1FDA0879002745E9 /* pixman-arm-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-common.h"; sourceTree = "<group>"; };
+		ABC8041C1FDA087A002745E9 /* pixman-edge-imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-edge-imp.h"; sourceTree = "<group>"; };
+		ABC8041D1FDA087C002745E9 /* pixman-combine-float.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-combine-float.c"; sourceTree = "<group>"; };
+		ABC8041E1FDA087D002745E9 /* pixman-mips.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-mips.c"; sourceTree = "<group>"; };
+		ABC8041F1FDA087E002745E9 /* pixman-gradient-walker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-gradient-walker.c"; sourceTree = "<group>"; };
+		ABC804201FDA087F002745E9 /* pixman-ssse3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-ssse3.c"; sourceTree = "<group>"; };
+		ABC804211FDA0880002745E9 /* pixman-x86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-x86.c"; sourceTree = "<group>"; };
+		ABC804221FDA0881002745E9 /* pixman-arm-neon-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-neon-asm.h"; sourceTree = "<group>"; };
+		ABC804231FDA0882002745E9 /* pixman-arm-neon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-arm-neon.c"; sourceTree = "<group>"; };
+		ABC804241FDA0882002745E9 /* pixman-radial-gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-radial-gradient.c"; sourceTree = "<group>"; };
+		ABC804251FDA0883002745E9 /* pixman-implementation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-implementation.c"; sourceTree = "<group>"; };
+		ABC804261FDA0884002745E9 /* pixman-filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-filter.c"; sourceTree = "<group>"; };
+		ABC804271FDA0885002745E9 /* pixman-mips-dspr2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-mips-dspr2.c"; sourceTree = "<group>"; };
+		ABC804281FDA0885002745E9 /* pixman-timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-timer.c"; sourceTree = "<group>"; };
+		ABC804291FDA0886002745E9 /* pixman-utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-utils.c"; sourceTree = "<group>"; };
+		ABC8042A1FDA0887002745E9 /* pixman-region32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-region32.c"; sourceTree = "<group>"; };
+		ABC8042B1FDA0888002745E9 /* pixman-mips-memcpy-asm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "pixman-mips-memcpy-asm.S"; sourceTree = "<group>"; };
+		ABC8042C1FDA0889002745E9 /* pixman-arm-neon-asm-bilinear.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "pixman-arm-neon-asm-bilinear.S"; sourceTree = "<group>"; };
+		ABC8042D1FDA088A002745E9 /* pixman-linear-gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-linear-gradient.c"; sourceTree = "<group>"; };
+		ABC8042E1FDA088A002745E9 /* pixman-vmx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-vmx.c"; sourceTree = "<group>"; };
+		ABC8042F1FDA088B002745E9 /* pixman-arm-simd-asm-scaled.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "pixman-arm-simd-asm-scaled.S"; sourceTree = "<group>"; };
+		ABC8045C1FDA08DC002745E9 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		ABC8045E1FDA0AAF002745E9 /* pixman-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pixman-version.h"; path = "../../UnsafeLibs/pixman-0.34.0/pixman/pixman-version.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +136,7 @@
 			children = (
 				ABC803EB1FDA07FD002745E9 /* pixman-a */,
 				ABC803EA1FDA07FD002745E9 /* Products */,
+				ABC8046E1FDA0C95002745E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +151,76 @@
 		ABC803EB1FDA07FD002745E9 /* pixman-a */ = {
 			isa = PBXGroup;
 			children = (
-				ABC803EC1FDA07FD002745E9 /* pixman_a.h */,
-				ABC803ED1FDA07FD002745E9 /* pixman_a.m */,
+				ABC8045C1FDA08DC002745E9 /* config.h */,
+				ABC8045E1FDA0AAF002745E9 /* pixman-version.h */,
+				ABC803F81FDA0860002745E9 /* loongson-mmintrin.h */,
+				ABC803FE1FDA0862002745E9 /* pixman-access-accessors.c */,
+				ABC804081FDA0865002745E9 /* pixman-access.c */,
+				ABC8040B1FDA0867002745E9 /* pixman-accessor.h */,
+				ABC803F91FDA0861002745E9 /* pixman-arm-asm.h */,
+				ABC8041B1FDA0879002745E9 /* pixman-arm-common.h */,
+				ABC8042C1FDA0889002745E9 /* pixman-arm-neon-asm-bilinear.S */,
+				ABC804221FDA0881002745E9 /* pixman-arm-neon-asm.h */,
+				ABC804021FDA0863002745E9 /* pixman-arm-neon-asm.S */,
+				ABC804231FDA0882002745E9 /* pixman-arm-neon.c */,
+				ABC8042F1FDA088B002745E9 /* pixman-arm-simd-asm-scaled.S */,
+				ABC804011FDA0862002745E9 /* pixman-arm-simd-asm.h */,
+				ABC803F71FDA0860002745E9 /* pixman-arm-simd-asm.S */,
+				ABC8040E1FDA086A002745E9 /* pixman-arm-simd.c */,
+				ABC803F51FDA0860002745E9 /* pixman-arm.c */,
+				ABC804001FDA0862002745E9 /* pixman-bits-image.c */,
+				ABC8041D1FDA087C002745E9 /* pixman-combine-float.c */,
+				ABC804051FDA0864002745E9 /* pixman-combine32.c */,
+				ABC803FA1FDA0861002745E9 /* pixman-combine32.h */,
+				ABC804071FDA0864002745E9 /* pixman-compiler.h */,
+				ABC8040C1FDA0867002745E9 /* pixman-conical-gradient.c */,
+				ABC804171FDA0873002745E9 /* pixman-edge-accessors.c */,
+				ABC8041C1FDA087A002745E9 /* pixman-edge-imp.h */,
+				ABC804191FDA0876002745E9 /* pixman-edge.c */,
+				ABC804061FDA0864002745E9 /* pixman-fast-path.c */,
+				ABC804261FDA0884002745E9 /* pixman-filter.c */,
+				ABC8040F1FDA086A002745E9 /* pixman-general.c */,
+				ABC8041A1FDA0878002745E9 /* pixman-glyph.c */,
+				ABC8041F1FDA087E002745E9 /* pixman-gradient-walker.c */,
+				ABC803F61FDA0860002745E9 /* pixman-image.c */,
+				ABC804251FDA0883002745E9 /* pixman-implementation.c */,
+				ABC804041FDA0863002745E9 /* pixman-inlines.h */,
+				ABC8042D1FDA088A002745E9 /* pixman-linear-gradient.c */,
+				ABC804151FDA0870002745E9 /* pixman-matrix.c */,
+				ABC804181FDA0875002745E9 /* pixman-mips-dspr2-asm.h */,
+				ABC803FD1FDA0862002745E9 /* pixman-mips-dspr2-asm.S */,
+				ABC804271FDA0885002745E9 /* pixman-mips-dspr2.c */,
+				ABC804161FDA0871002745E9 /* pixman-mips-dspr2.h */,
+				ABC8042B1FDA0888002745E9 /* pixman-mips-memcpy-asm.S */,
+				ABC8041E1FDA087D002745E9 /* pixman-mips.c */,
+				ABC804141FDA086F002745E9 /* pixman-mmx.c */,
+				ABC803FF1FDA0862002745E9 /* pixman-noop.c */,
+				ABC804121FDA086D002745E9 /* pixman-ppc.c */,
+				ABC804031FDA0863002745E9 /* pixman-private.h */,
+				ABC804241FDA0882002745E9 /* pixman-radial-gradient.c */,
+				ABC8042A1FDA0887002745E9 /* pixman-region32.c */,
+				ABC803FC1FDA0861002745E9 /* pixman-region16.c */,
+				ABC803FB1FDA0861002745E9 /* pixman-region.c */,
+				ABC8040D1FDA0868002745E9 /* pixman-solid-fill.c */,
+				ABC804091FDA0865002745E9 /* pixman-sse2.c */,
+				ABC804201FDA087F002745E9 /* pixman-ssse3.c */,
+				ABC804281FDA0885002745E9 /* pixman-timer.c */,
+				ABC804101FDA086B002745E9 /* pixman-trap.c */,
+				ABC804291FDA0886002745E9 /* pixman-utils.c */,
+				ABC8040A1FDA0866002745E9 /* pixman-version.h */,
+				ABC8042E1FDA088A002745E9 /* pixman-vmx.c */,
+				ABC804211FDA0880002745E9 /* pixman-x86.c */,
+				ABC804111FDA086C002745E9 /* pixman.c */,
+				ABC804131FDA086E002745E9 /* pixman.h */,
 			);
 			path = "pixman-a";
+			sourceTree = "<group>";
+		};
+		ABC8046E1FDA0C95002745E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +280,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC803EE1FDA07FD002745E9 /* pixman_a.m in Sources */,
+				ABC804521FDA088C002745E9 /* pixman-filter.c in Sources */,
+				ABC804461FDA088C002745E9 /* pixman-matrix.c in Sources */,
+				ABC804491FDA088C002745E9 /* pixman-glyph.c in Sources */,
+				ABC804561FDA088C002745E9 /* pixman-region32.c in Sources */,
+				ABC804541FDA088C002745E9 /* pixman-timer.c in Sources */,
+				ABC804551FDA088C002745E9 /* pixman-utils.c in Sources */,
+				ABC804471FDA088C002745E9 /* pixman-edge-accessors.c in Sources */,
+				ABC804511FDA088C002745E9 /* pixman-implementation.c in Sources */,
+				ABC804411FDA088C002745E9 /* pixman-general.c in Sources */,
+				ABC8044C1FDA088C002745E9 /* pixman-gradient-walker.c in Sources */,
+				ABC804431FDA088C002745E9 /* pixman.c in Sources */,
+				ABC804361FDA088C002745E9 /* pixman-access-accessors.c in Sources */,
+				ABC804311FDA088C002745E9 /* pixman-image.c in Sources */,
+				ABC8043A1FDA088C002745E9 /* pixman-combine32.c in Sources */,
+				ABC804371FDA088C002745E9 /* pixman-noop.c in Sources */,
+				ABC804501FDA088C002745E9 /* pixman-radial-gradient.c in Sources */,
+				ABC8043E1FDA088C002745E9 /* pixman-conical-gradient.c in Sources */,
+				ABC804441FDA088C002745E9 /* pixman-ppc.c in Sources */,
+				ABC804481FDA088C002745E9 /* pixman-edge.c in Sources */,
+				ABC804381FDA088C002745E9 /* pixman-bits-image.c in Sources */,
+				ABC804301FDA088C002745E9 /* pixman-arm.c in Sources */,
+				ABC8044B1FDA088C002745E9 /* pixman-mips.c in Sources */,
+				ABC8043B1FDA088C002745E9 /* pixman-fast-path.c in Sources */,
+				ABC804531FDA088C002745E9 /* pixman-mips-dspr2.c in Sources */,
+				ABC804401FDA088C002745E9 /* pixman-arm-simd.c in Sources */,
+				ABC804341FDA088C002745E9 /* pixman-region16.c in Sources */,
+				ABC804591FDA088D002745E9 /* pixman-linear-gradient.c in Sources */,
+				ABC804421FDA088C002745E9 /* pixman-trap.c in Sources */,
+				ABC8044F1FDA088C002745E9 /* pixman-arm-neon.c in Sources */,
+				ABC8043F1FDA088C002745E9 /* pixman-solid-fill.c in Sources */,
+				ABC8044A1FDA088C002745E9 /* pixman-combine-float.c in Sources */,
+				ABC8044E1FDA088C002745E9 /* pixman-x86.c in Sources */,
+				ABC8043C1FDA088C002745E9 /* pixman-access.c in Sources */,
+				ABC804451FDA088C002745E9 /* pixman-mmx.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +429,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4X9SQWNR2;
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -251,6 +442,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4X9SQWNR2;
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
